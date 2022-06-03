@@ -2,7 +2,7 @@ ban() {
 mkdir abc
 cd abc
 for a in 1.py 2.py banner.py;do
-wget -q 
+wget -q https://raw.githubusercontent.com/rooted-cyber/encrypt/main/$a
 done
 python banner.py
 }
